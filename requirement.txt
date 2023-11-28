@@ -1,0 +1,8 @@
+cleantext
+pandas
+streamlit
+ntlk
+nlp
+sumy
+gensim
+textblob
