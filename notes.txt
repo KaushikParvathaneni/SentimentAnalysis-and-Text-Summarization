@@ -1,0 +1,27 @@
+-- Preprocessing
+cleantext library
+Removing extra spaces
+Converting to lowercase
+Removing stopwords
+Removing numbers
+Removing punctuation
+Performing stemming
+
+
+-- Feature Extraction
+The TextBlob library is used to calculate the term frequency of each word in the provided text.
+Talk more on text blob and word embeddings.
+
+
+-- Main Functionality
+
+Sentiment Analysis
+The main functionality of the application is Sentiment Analysis using the TextBlob library. The sentiment analysis provides two key metrics:
+Polarity: Indicates the positivity or negativity of the text (-1 to 1).
+Subjectivity: Measures the subjectiveness of the text (0 to 1).
+
+Text Summarization
+Another main functionality is Text Summarization. The application provides the option to choose between Gensim and Sumy libraries for summarization. Summarization helps condense longer texts, providing a concise version while retaining essential information.
+
+Sentiment Analysis on Amazon Reviews
+The application enables sentiment analysis on Amazon reviews uploaded via a CSV file. The sentiment score is calculated using TextBlob, and reviews are labeled as Positive, Negative, or Neutral based on predefined thresholds. Users can download the sentiment analysis results as a CSV file.

@@ -1,0 +1,73 @@
+Introduction
+
+ 
+
+Hello Everyone , I am Simi Rajeev ,with me I have my team mates Kaushik and Ramana. Our project is about to create a web application to do sentiment analysis on any comments that user enters,
+
+it can be based on movie reviews, product reviews or set of tweets related to any current affair and many more.In addition to that, this  web application will provide the functionalities to users like text preprocessing, calculate polarity and subjectivity of any text,text summarization
+
+and the ability to download the outcome of the sentiment analysis.
+
+ 
+
+Our Sentiment Analysis Web App will be a flexible, user-friendly solution aimed at diverse user
+
+groups/stakeholders. Its distinctive qualities, which include real-time and batch analysis, customization, and the
+
+capacity to address a wide range of applications, all make it a useful contribution to the sentiment analysis sector.
+
+ 
+
+The UI implemented using Streamlit with python and for deployment we used streamlit cloud service. Our application has a home page where it shows all the functionalities and the color schema we used is black and white.
+
+Lets explore each functionalities
+
+ 
+
+The first function that we implemented is sentiment analysis , we have a text box , user can enter any comments or sentence to check on polarity and subjectivity. For example if we enter  a review about recent movie Barbie
+
+ 
+
+‘
+One of the best films of the year in cinematographic terms, probably the best comedy that we have seen in a long time, and an extraordinarily entertaining product that promotes the value of searching for a more cohesive society’
+
+ 
+
+we can get the polarity and subjectivity score.
+
+ 
+
+The next function that we implemented is text processing which cleans up the text and it gives the content words , removes the numbers, commas or characters, stop words, punctuations, lower case , extra spaces
+
+ 
+
+ 
+
+Next available functionality that we are going to talk about is text summarization, which will provide us the summary of the text that we enter. We have implemented the same functionality here by using 2 packages which are genism and sumy.
+
+It can be opted from the drop down menu as shown.
+
+ 
+
+For example…
+
+ 
+
+ 
+
+The next functionality that we implemented is upload a csv/xlsx file with review comments to figure out the sentiments. This will calculate the polarity score of every tweets/review comment and produce that in another column named score and with that score we analyze whether the sentiment is positive, negative or neutral.
+
+ 
+
+The last functionality which is available here is download the result set of further analysis.
+
+
+ 
+
+ 
+
+Our Sentiment Analysis Web App will be a flexible, user-friendly solution aimed at diverse user
+
+groups/stakeholders. Its distinctive qualities, which include real-time and batch analysis, customization, and the
+
+capacity to address a wide range of applications, all make it a useful contribution to the sentiment analysis sector.
