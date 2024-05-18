@@ -1,4 +1,6 @@
-# sentimentAnalysis
+# Sentiment Analysis and Text Summarization
+
+
 My streamlit application for sentiment Analysis and Text Summarization.
 
 
